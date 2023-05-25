@@ -89,6 +89,8 @@ h1, h2{
 }
 @media(max-width: 1000px){
     .circuit{
+        right:50%;
+        top: 50%;
         display: none;
     }
 }
@@ -234,7 +236,8 @@ color: var(--accent)
 .icons{
     display: flex;
     justify-content: center;
-    gap: 30px
+    gap: 30px;
+    flex-wrap: wrap;
 
 
 }
