@@ -27,7 +27,7 @@ a:hover{
 }
 
 nav{
-    width:100%;
+    width:100vw;
     background-color: var(--primary);
     position: fixed;
     overflow: hidden;
@@ -53,7 +53,16 @@ li a:hover{
 @media (max-width:500px) {
     .link{
         font-size: 1.1em;
+        margin-left: -5px;
     }
+    nav>ul{
+        justify-content: center;
+        padding: 0;
+        padding-left: 5px;
+    }
+   
+    
+
 }
 
 main{
@@ -177,9 +186,10 @@ h1, h2{
     margin: 0 auto;
 }
 
+
 .project-description{
     background: var(--primary);
-    padding: 2.2rem;
+    padding: 1.4rem;
     margin-top: -10px;
     color: var(--background);
     text-align: center;
@@ -202,7 +212,22 @@ h1, h2{
 .project-container:hover{
     box-shadow: 15px 15px var(--accent);
 }
-
+@media (max-width: 500px) {
+    
+    .project-image{
+        width: 316px;
+        height: 316px;
+        
+    }
+    .project-container{
+       
+        height: 378px;
+        width: 300px;
+        
+     
+    }
+ 
+}
 #resume{
     background:var(--primary) ;
     color: var(--background);
