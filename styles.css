@@ -189,7 +189,7 @@ h1, h2{
 
 .project-description{
     background: var(--primary);
-    padding: 1.4rem;
+    padding: 2.2rem;
     margin-top: -10px;
     color: var(--background);
     text-align: center;
@@ -226,6 +226,9 @@ h1, h2{
         
      
     }
+    .project-description{
+        padding: 1.4rem;
+        
  
 }
 #resume{
